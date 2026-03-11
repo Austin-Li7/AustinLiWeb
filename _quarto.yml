@@ -3,7 +3,6 @@ project:
   output-dir: docs
   resources:
     - files
-    - pic
 
 website:
   title: "My Website"
@@ -18,11 +17,9 @@ website:
     right:
       - icon: github
         href: https://github.com/Austin-Li7/AustinLiWeb
-        target: _blank
-  search: true
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: false
+    toc: true

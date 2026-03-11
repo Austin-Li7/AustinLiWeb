@@ -1,13 +1,14 @@
 ---
 title: "Chenchangwen (Austin) Li"
-image: "pic/Austin_Li.JPG"
+image: "pic/myphoto.jpg"
 about:
   template: jolla
   links:
     - icon: envelope
-      href: mailto:chl378@ucsd.edu
+      href: chl378@ucsd.edu
     - icon: linkedin
       href: https://www.linkedin.com/in/chenchangwen-li
+
 ---
 
 Welcome to my website!
