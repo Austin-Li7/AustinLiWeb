@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - files
+    - pic
+
+website:
+  title: "My Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: resume.qmd
+        text: Resume
+      - href: projects.qmd
+        text: Projects
+    right:
+      - icon: github
+        href: https://github.com/Austin-Li7/AustinLiWeb
+        target: _blank
+  search: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

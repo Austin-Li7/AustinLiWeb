@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chenchangwen (Austin) Li",
+    "section": "",
+    "text": "Welcome to my website!"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "项目标题二",
+    "section": "",
+    "text": "在此填写项目背景和目标。"
+  },
+  {
+    "objectID": "projects/project2.html#introduction",
+    "href": "projects/project2.html#introduction",
+    "title": "项目标题二",
+    "section": "",
+    "text": "在此填写项目背景和目标。"
+  },
+  {
+    "objectID": "projects/project2.html#data",
+    "href": "projects/project2.html#data",
+    "title": "项目标题二",
+    "section": "Data",
+    "text": "Data\n在此描述数据来源和处理方式。"
+  },
+  {
+    "objectID": "projects/project2.html#results",
+    "href": "projects/project2.html#results",
+    "title": "项目标题二",
+    "section": "Results",
+    "text": "Results\n在此描述分析结果和结论。"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "My Resume",
+    "section": "",
+    "text": "This browser does not support embedded PDFs. You can download the file here."
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "项目标题一",
+    "section": "",
+    "text": "在此填写项目背景和目标。"
+  },
+  {
+    "objectID": "projects/project1.html#introduction",
+    "href": "projects/project1.html#introduction",
+    "title": "项目标题一",
+    "section": "",
+    "text": "在此填写项目背景和目标。"
+  },
+  {
+    "objectID": "projects/project1.html#data",
+    "href": "projects/project1.html#data",
+    "title": "项目标题一",
+    "section": "Data",
+    "text": "Data\n在此描述数据来源和处理方式。"
+  },
+  {
+    "objectID": "projects/project1.html#results",
+    "href": "projects/project1.html#results",
+    "title": "项目标题一",
+    "section": "Results",
+    "text": "Results\n在此描述分析结果和结论。"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "My Projects",
+    "section": "",
+    "text": "项目标题一\n\n\n副标题（可选）\n\n\n在此填写项目简介，会显示在卡片上。\n\n\n\nAustin Li\n\n\nJun 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n项目标题二\n\n\n副标题（可选）\n\n\n在此填写项目简介，会显示在卡片上。\n\n\n\nAustin Li\n\n\nJun 12, 2025\n\n\n\n\n\n\nNo matching items"
+  }
+]
