@@ -1,6 +1,6 @@
 ---
 title: "My Projects"
 listing:
-  contents: projects
-  type: grid
+  contents: projects  # <-- the sub-directory with blog content
+  type: grid          # <-- my preferred layout type
 ---

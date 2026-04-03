@@ -1,11 +1,9 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - files
 
 website:
-  title: "My Website"
+  title: "Austin's website"
   navbar:
     left:
       - href: index.qmd
@@ -14,12 +12,11 @@ website:
         text: Resume
       - href: projects.qmd
         text: Projects
-    right:
-      - icon: github
-        href: https://github.com/Austin-Li7/AustinLiWeb
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - brand
     css: styles.css
     toc: true
