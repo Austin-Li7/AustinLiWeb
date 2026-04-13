@@ -22,5 +22,11 @@
   },
   "projects/project4/index.qmd": {
     "index.html": "6b363350"
+  },
+  "projects/hw1-ab-testing/index.qmd": {
+    "index.html": "b754438b"
+  },
+  "projects/hw1-ab-testing-codex/index.qmd": {
+    "index.html": "9e6d56fe"
   }
 }
