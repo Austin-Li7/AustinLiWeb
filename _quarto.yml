@@ -4,6 +4,11 @@ project:
 
 website:
   title: "Austin's website"
+  site-url: "https://austin-li7.github.io/AustinLiWeb/"
+  repo-url: "https://github.com/Austin-Li7/AustinLiWeb"
+  repo-actions: [source]
+  page-navigation: true
+  back-to-top-navigation: true
   navbar:
     left:
       - href: index.qmd
