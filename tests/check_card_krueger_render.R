@@ -1,5 +1,7 @@
-project_root <- normalizePath(".", winslash = "/", mustWork = TRUE)
-site_root <- file.path(project_root, "mywebsite")
+script_arg <- commandArgs(trailingOnly = FALSE)[grep("^--file=", commandArgs(trailingOnly = FALSE))]
+script_path <- normalizePath(sub("^--file=", "", script_arg[1]), winslash = "/", mustWork = TRUE)
+script_dir <- dirname(script_path)
+site_root <- normalizePath(file.path(script_dir, ".."), winslash = "/", mustWork = TRUE)
 
 target_qmd <- file.path(site_root, "projects", "project5-card-krueger-did", "index.qmd")
 target_html <- file.path(site_root, "docs", "projects", "project5-card-krueger-did", "index.html")
@@ -55,6 +57,14 @@ if (!grepl("On this page", page_html, fixed = TRUE)) {
 
 if (!grepl("Replication Accuracy Check", page_html, fixed = TRUE)) {
   stop("Rendered project page is missing the replication accuracy check section.", call. = FALSE)
+}
+
+if (grepl("plotly", page_html, ignore.case = TRUE)) {
+  stop("Rendered project page still includes plotly assets or markup.", call. = FALSE)
+}
+
+if (!grepl("manually keyed from the published Card", page_html, fixed = TRUE)) {
+  stop("Rendered project page is missing the stronger benchmark-source disclosure.", call. = FALSE)
 }
 
 message("Card & Krueger page rendered and listed successfully.")
