@@ -676,6 +676,8 @@ There are three progressively better comparisons here:
 2. **Before-after only**: employment falls in PA and rises slightly in NJ, but either state could also be affected by seasonality or macro conditions.
 3. **Difference-in-Differences**: by comparing the change in NJ to the change in PA, we difference out common time shocks and get a much more credible estimate of the policy effect.
 
+Taken together, Table 3 and Table 4 tell the same story: once the comparison is framed relative to Pennsylvania, the employment effect is not negative in the way a simple textbook model would predict.
+
 ## Why the DiD Framing Is the Right One
 
 ::: {.callout-important appearance="simple"}
