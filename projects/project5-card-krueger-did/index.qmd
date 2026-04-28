@@ -479,6 +479,7 @@ This is still only a subset of Table 2, but it is now a clearer subset. It cover
 - the share of NJ stores paying exactly **\$5.05** jumps mechanically after the law change
 - employment does **not** move in the direction the simple textbook prediction would suggest
 
+The core comparison is not whether New Jersey changed on its own, but whether it changed **relative to Pennsylvania**. That is what makes the Difference-in-Differences estimate more informative than a simple before-after comparison in one state.
 ### Table 3: The key DiD result
 
 ```{r}
@@ -493,7 +494,7 @@ table3_main |>
     style = list(cell_fill(color = "#eef6f5"), cell_text(weight = "bold")),
     locations = cells_body(rows = 1:3)
   ) |>
-  tab_source_note("Rows 1-3 and columns 1-3 are the assignment target; rows 4-5 add the sensitivity checks discussed in the paper.")
+  tab_source_note("Rows 1-3 and columns 1-3 are the assignment target. Sensitivity checks are reported separately below in the dedicated sample-definition section.")
 ```
 
 The key quantity is row 3, column 3:
@@ -674,6 +675,8 @@ There are three progressively better comparisons here:
 1. **Cross-section only**: NJ stores were smaller than PA stores even before the policy change, so a simple after-period comparison is not useful.
 2. **Before-after only**: employment falls in PA and rises slightly in NJ, but either state could also be affected by seasonality or macro conditions.
 3. **Difference-in-Differences**: by comparing the change in NJ to the change in PA, we difference out common time shocks and get a much more credible estimate of the policy effect.
+
+Taken together, Table 3 and Table 4 tell the same story: once the comparison is framed relative to Pennsylvania, the employment effect is not negative in the way a simple textbook model would predict.
 
 ## Why the DiD Framing Is the Right One
 
