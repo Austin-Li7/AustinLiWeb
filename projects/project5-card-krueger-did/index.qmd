@@ -479,6 +479,7 @@ This is still only a subset of Table 2, but it is now a clearer subset. It cover
 - the share of NJ stores paying exactly **\$5.05** jumps mechanically after the law change
 - employment does **not** move in the direction the simple textbook prediction would suggest
 
+The core comparison is not whether New Jersey changed on its own, but whether it changed **relative to Pennsylvania**. That is what makes the Difference-in-Differences estimate more informative than a simple before-after comparison in one state.
 ### Table 3: The key DiD result
 
 ```{r}
@@ -493,7 +494,7 @@ table3_main |>
     style = list(cell_fill(color = "#eef6f5"), cell_text(weight = "bold")),
     locations = cells_body(rows = 1:3)
   ) |>
-  tab_source_note("Rows 1-3 and columns 1-3 are the assignment target; rows 4-5 add the sensitivity checks discussed in the paper.")
+  tab_source_note("Rows 1-3 and columns 1-3 are the assignment target. Sensitivity checks are reported separately below in the dedicated sample-definition section.")
 ```
 
 The key quantity is row 3, column 3:
